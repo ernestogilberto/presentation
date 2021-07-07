@@ -1,0 +1,186 @@
+* {
+    margin  : 0;
+    padding : 0;
+}
+
+html {
+    font-size : 26.5%;
+}
+
+.wrapper {
+    width          : 80%;
+    margin         : 0 auto;
+    padding-inline : 20px;
+}
+
+.header {
+    width            : 80%;
+    height           : 40px;
+    background-color : #233554;
+    position         : fixed;
+    top              : 0;
+}
+
+.logo {
+    height : 90%;
+}
+
+.main {
+    padding-block : 60px;
+}
+
+.footer {
+    width            : 80%;
+    height           : 40px;
+    background-color : #233554;
+    position         : fixed;
+    bottom           : 0;
+}
+
+body {
+    background-color : #020C1B;
+    /*text-align       : center;*/
+}
+
+h1, h2 {
+    font-family : 'Roboto', sans-serif;
+    color       : #64FFDA;
+    font-weight : 700;
+    margin      : 0 0 10px 0;
+    text-align  : center;
+}
+
+img {
+    display : block;
+    margin  : 20px auto;
+}
+
+.social {
+    text-align : center;
+}
+
+.social a {
+    text-decoration : none;
+}
+
+h1 {
+    font-size : 7rem;
+}
+
+h2 {
+    font-size : 5rem;
+}
+
+img {
+    border-radius : 10px;
+}
+
+p {
+    font-family : 'Roboto Mono', monospace;
+    color       : #E6F1FF;
+    font-size   : 3.5rem;
+    margin      : 20px 20px;
+}
+
+p:first-of-type{
+    text-align : center;
+}
+
+.icon:hover {
+    background-color : #64FFDA;
+    fill             : #020C1B;
+}
+
+.icon {
+    width            : 25px;
+    height           : 25px;
+    margin-inline    : 10px;
+    padding          : 5px;
+    border-radius    : 3px;
+    margin-block-end : 10px;
+}
+
+.hobbies {
+    width  : 300px;
+    margin : 5px auto 20px;
+}
+
+ul {
+    list-style : inside;
+    text-align : left;
+}
+
+li, label {
+    font-size   : 4rem;
+    color       : #E6F1FF;
+    font-weight : 700;
+}
+
+.button {
+    font-family      : 'Roboto Mono', monospace;
+    font-weight      : 700;
+    font-size        : 3.5rem;
+    text-transform   : uppercase;
+    border-radius    : 5px;
+    padding          : 5px;
+    background-color : transparent;
+    color            : #64FFDA;
+    border           : 2px solid #64FFDA;
+    cursor           : pointer;
+    margin-top       : 20px;
+}
+
+.button:hover {
+    background-color : #64FFDA;
+    color            : #020C1B;
+}
+
+.form {
+    width         : 70%;
+    margin        : 0 auto;
+    border        : 2px solid #64FFDA;
+    padding-block : 20px;
+    border-radius : 10px;
+    text-align    : center;
+    z-index:0;
+}
+
+input, textarea {
+    background-color : transparent;
+    border           : 2px solid #64FFDA;
+    color            : #E6F1FF;
+    font-weight      : 700;
+    padding          : 5px;
+    border-radius    : 8px;
+}
+
+input{
+    border: none;
+    border-block-end: 2px solid #64FFDA;
+}
+
+::placeholder {
+    color : rgba(230, 241, 255, .5);
+    font-weight: 400;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    box-shadow : 0 0 1px 2px rgba(100, 255, 218, 0.3);
+}
+
+input, label, textarea {
+    margin-block-end : 10px;
+}
+
+.copyright{
+    display : inline-block;
+    color : #64FFDA;
+    font-weight: 400;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin: -5px 50px 0 -25%;
+    z-index: 2;
+}
